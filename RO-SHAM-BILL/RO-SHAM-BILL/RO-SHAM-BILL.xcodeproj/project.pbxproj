@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5077E54020B3A96D00971EDB /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077E53F20B3A96C00971EDB /* BaseController.swift */; };
+		508CEF08207EC70D00EED26F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 508CEF07207EC70D00EED26F /* Default-568h@2x.png */; };
+		508DFCF42098ED2100853DAE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DFCF32098ED2100853DAE /* Game.swift */; };
+		508DFCF82098F01C00853DAE /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DFCF72098F01C00853DAE /* Turn.swift */; };
+		50A8C305207D5B3A00A4BE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A8C304207D5B3A00A4BE9B /* AppDelegate.swift */; };
+		50A8C30A207D5B3A00A4BE9B /* RoShamBill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A8C308207D5B3A00A4BE9B /* RoShamBill.storyboard */; };
+		50A8C30D207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A8C30B207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodeld */; };
+		50A8C30F207D5B3B00A4BE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A8C30E207D5B3B00A4BE9B /* Assets.xcassets */; };
+		50A8C312207D5B3B00A4BE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A8C310207D5B3B00A4BE9B /* LaunchScreen.storyboard */; };
+		50F32ACB208527E5008E881F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32ACA208527E5008E881F /* HomeViewController.swift */; };
+		50F32ACD2085292E008E881F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32ACC2085292E008E881F /* SettingsTableViewController.swift */; };
+		50F32ACF20852AAB008E881F /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32ACE20852AAB008E881F /* HistoryTableViewController.swift */; };
+		50F32AD120852BB7008E881F /* HistoryDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32AD020852BB7008E881F /* HistoryDetailsTableViewController.swift */; };
+		50F32AD320852D37008E881F /* ServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32AD220852D37008E881F /* ServerViewController.swift */; };
+		50F32AD520852DD4008E881F /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32AD420852DD4008E881F /* PlayersViewController.swift */; };
+		50F32AD720852E6C008E881F /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32AD620852E6C008E881F /* GuessViewController.swift */; };
+		50F32AD920852ECD008E881F /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F32AD820852ECD008E881F /* WinnerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5077E53F20B3A96C00971EDB /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		508CEF07207EC70D00EED26F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		508DFCF32098ED2100853DAE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		508DFCF72098F01C00853DAE /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		50A8C301207D5B3A00A4BE9B /* RO-SHAM-BILL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RO-SHAM-BILL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A8C304207D5B3A00A4BE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50A8C309207D5B3A00A4BE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RoShamBill.storyboard; sourceTree = "<group>"; };
+		50A8C30C207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RO_SHAM_BILL.xcdatamodel; sourceTree = "<group>"; };
+		50A8C30E207D5B3B00A4BE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A8C311207D5B3B00A4BE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50A8C313207D5B3B00A4BE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F32ACA208527E5008E881F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		50F32ACC2085292E008E881F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		50F32ACE20852AAB008E881F /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		50F32AD020852BB7008E881F /* HistoryDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailsTableViewController.swift; sourceTree = "<group>"; };
+		50F32AD220852D37008E881F /* ServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewController.swift; sourceTree = "<group>"; };
+		50F32AD420852DD4008E881F /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		50F32AD620852E6C008E881F /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+		50F32AD820852ECD008E881F /* WinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A8C2FE207D5B3A00A4BE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		508CEF03207EC59E00EED26F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50A8C308207D5B3A00A4BE9B /* RoShamBill.storyboard */,
+				50A8C310207D5B3B00A4BE9B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		508CEF04207EC5AE00EED26F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50F32AC9208526A0008E881F /* RoShamBill */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		508CEF05207EC5B600EED26F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50A8C30B207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodeld */,
+				508DFCF32098ED2100853DAE /* Game.swift */,
+				508DFCF72098F01C00853DAE /* Turn.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		508CEF09207EC81800EED26F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A8C30E207D5B3B00A4BE9B /* Assets.xcassets */,
+				50A8C313207D5B3B00A4BE9B /* Info.plist */,
+				50A8C304207D5B3A00A4BE9B /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50A8C2F8207D5B3A00A4BE9B = {
+			isa = PBXGroup;
+			children = (
+				508CEF07207EC70D00EED26F /* Default-568h@2x.png */,
+				50A8C303207D5B3A00A4BE9B /* RO-SHAM-BILL */,
+				50A8C302207D5B3A00A4BE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A8C302207D5B3A00A4BE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A8C301207D5B3A00A4BE9B /* RO-SHAM-BILL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A8C303207D5B3A00A4BE9B /* RO-SHAM-BILL */ = {
+			isa = PBXGroup;
+			children = (
+				508CEF09207EC81800EED26F /* Supporting Files */,
+				508CEF05207EC5B600EED26F /* Models */,
+				508CEF03207EC59E00EED26F /* Views */,
+				508CEF04207EC5AE00EED26F /* Controllers */,
+			);
+			path = "RO-SHAM-BILL";
+			sourceTree = "<group>";
+		};
+		50F32AC9208526A0008E881F /* RoShamBill */ = {
+			isa = PBXGroup;
+			children = (
+				50F32ACA208527E5008E881F /* HomeViewController.swift */,
+				50F32ACC2085292E008E881F /* SettingsTableViewController.swift */,
+				50F32ACE20852AAB008E881F /* HistoryTableViewController.swift */,
+				50F32AD020852BB7008E881F /* HistoryDetailsTableViewController.swift */,
+				50F32AD220852D37008E881F /* ServerViewController.swift */,
+				50F32AD420852DD4008E881F /* PlayersViewController.swift */,
+				50F32AD620852E6C008E881F /* GuessViewController.swift */,
+				50F32AD820852ECD008E881F /* WinnerViewController.swift */,
+				5077E53F20B3A96C00971EDB /* BaseController.swift */,
+			);
+			path = RoShamBill;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A8C300207D5B3A00A4BE9B /* RO-SHAM-BILL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A8C316207D5B3B00A4BE9B /* Build configuration list for PBXNativeTarget "RO-SHAM-BILL" */;
+			buildPhases = (
+				50A8C2FD207D5B3A00A4BE9B /* Sources */,
+				50A8C2FE207D5B3A00A4BE9B /* Frameworks */,
+				50A8C2FF207D5B3A00A4BE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RO-SHAM-BILL";
+			productName = "RO-SHAM-BILL";
+			productReference = 50A8C301207D5B3A00A4BE9B /* RO-SHAM-BILL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A8C2F9207D5B3A00A4BE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Patrick Molvik";
+				TargetAttributes = {
+					50A8C300207D5B3A00A4BE9B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 50A8C2FC207D5B3A00A4BE9B /* Build configuration list for PBXProject "RO-SHAM-BILL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A8C2F8207D5B3A00A4BE9B;
+			productRefGroup = 50A8C302207D5B3A00A4BE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A8C300207D5B3A00A4BE9B /* RO-SHAM-BILL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A8C2FF207D5B3A00A4BE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A8C312207D5B3B00A4BE9B /* LaunchScreen.storyboard in Resources */,
+				508CEF08207EC70D00EED26F /* Default-568h@2x.png in Resources */,
+				50A8C30F207D5B3B00A4BE9B /* Assets.xcassets in Resources */,
+				50A8C30A207D5B3A00A4BE9B /* RoShamBill.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A8C2FD207D5B3A00A4BE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F32ACD2085292E008E881F /* SettingsTableViewController.swift in Sources */,
+				50A8C305207D5B3A00A4BE9B /* AppDelegate.swift in Sources */,
+				50A8C30D207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodeld in Sources */,
+				50F32AD120852BB7008E881F /* HistoryDetailsTableViewController.swift in Sources */,
+				50F32AD320852D37008E881F /* ServerViewController.swift in Sources */,
+				5077E54020B3A96D00971EDB /* BaseController.swift in Sources */,
+				50F32AD520852DD4008E881F /* PlayersViewController.swift in Sources */,
+				508DFCF42098ED2100853DAE /* Game.swift in Sources */,
+				508DFCF82098F01C00853DAE /* Turn.swift in Sources */,
+				50F32AD720852E6C008E881F /* GuessViewController.swift in Sources */,
+				50F32ACB208527E5008E881F /* HomeViewController.swift in Sources */,
+				50F32ACF20852AAB008E881F /* HistoryTableViewController.swift in Sources */,
+				50F32AD920852ECD008E881F /* WinnerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50A8C308207D5B3A00A4BE9B /* RoShamBill.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A8C309207D5B3A00A4BE9B /* Base */,
+			);
+			name = RoShamBill.storyboard;
+			sourceTree = "<group>";
+		};
+		50A8C310207D5B3B00A4BE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A8C311207D5B3B00A4BE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A8C314207D5B3B00A4BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A8C315207D5B3B00A4BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A8C317207D5B3B00A4BE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTX6X9MD5M;
+				INFOPLIST_FILE = "RO-SHAM-BILL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.spokane.scc.cis221.RO-SHAM-BILL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A8C318207D5B3B00A4BE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YTX6X9MD5M;
+				INFOPLIST_FILE = "RO-SHAM-BILL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.spokane.scc.cis221.RO-SHAM-BILL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A8C2FC207D5B3A00A4BE9B /* Build configuration list for PBXProject "RO-SHAM-BILL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A8C314207D5B3B00A4BE9B /* Debug */,
+				50A8C315207D5B3B00A4BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A8C316207D5B3B00A4BE9B /* Build configuration list for PBXNativeTarget "RO-SHAM-BILL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A8C317207D5B3B00A4BE9B /* Debug */,
+				50A8C318207D5B3B00A4BE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50A8C30B207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50A8C30C207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodel */,
+			);
+			currentVersion = 50A8C30C207D5B3A00A4BE9B /* RO_SHAM_BILL.xcdatamodel */;
+			path = RO_SHAM_BILL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50A8C2F9207D5B3A00A4BE9B /* Project object */;
+}
